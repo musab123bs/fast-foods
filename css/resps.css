@@ -1,0 +1,43 @@
+@media only screen and (max-width: 997px){
+    html{
+        font-size: 55.2% !important;
+    }
+}  
+
+@media all and (max-width: 828px) and (min-width: 768px){
+    html{
+        font-size: 48% !important;
+    }
+} 
+@media only screen and (max-width: 768px){
+    .banner .inner-banner .banner-right-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* .banner .inner-banner .banner-left-content .banner-left-img h1 {
+        font-size: 14vw !important;
+    } */
+}
+ @media only screen and (max-width: 767px){
+    html body .header .dest-top-menu .menu-list{
+        display: none !important;
+    }
+    html body .header .togl-btn {
+        display: block !important;
+    }
+    .banner .inner-banner .banner-left-content .banner-left-img h1{
+        font-size: 20vw !important;
+    }
+ }
+
+/*@media all and (max-width: 575px) and (min-width:400px){
+    .banner .inner-banner .banner-left-content .banner-left-img h1{
+        font-size: 10rem !important;
+    }
+}
+@media all and (max-width: 400px) and (min-width:300px){
+    .banner .inner-banner .banner-left-content .banner-left-img h1{
+        font-size: 7rem !important;
+    }
+}*/
+
