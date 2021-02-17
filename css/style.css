@@ -97,7 +97,7 @@ html body .header .togl-btn .toggl-line {
 }
 .navi .mob-toggle-menu .mob-menu {
     list-style: none;
-    transform: translateX(-70rem);
+    transform: translateX(-100rem);
     transition: 1s;
 }
 .navi .mob-toggle-menu.active .mob-menu{
