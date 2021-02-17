@@ -28,7 +28,7 @@ html {
 html body {font-family: 'Montserrat', sans-serif;line-height: 1.4;}
 html body .header {
     display: flex;
-    height: 7rem;
+    height: 9rem;
     justify-content: space-around;
     align-items: center;
     background-color: #ff5722;
@@ -39,7 +39,7 @@ html body .header {
     padding: 1rem 4rem;
     transition: 0.6s all ease-in-out;
 }
-html body .header.sticky{height: 5rem;position: fixed;}
+html body .header.sticky{height: 7rem;position: fixed;}
 html body .header .logo {
     width: 15%;
     margin: 0 auto;
