@@ -30,7 +30,7 @@
     }
  }
 
-@media all and (max-width: 575px) and (min-width:400px){
+@media only screen and (max-width: 575px){
     .offer .inner-offer .offer-content .img{
        display: block !important;
     }
@@ -44,6 +44,22 @@
     transform: rotate(0deg);
 }
 }
+
+
+/* @media all and (max-width: 575px) and (min-width:400px){
+    .offer .inner-offer .offer-content .img{
+       display: block !important;
+    }
+    .offer .inner-offer .offer-content .img .heading {
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    transform: none;
+}
+    .offer .inner-offer .offer-content .img .img-title {
+    transform: rotate(0deg);
+}
+} */
 /* @media all and (max-width: 400px) and (min-width:300px){
     .banner .inner-banner .banner-left-content .banner-left-img h1{
         font-size: 7rem !important;
