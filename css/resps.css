@@ -42,6 +42,8 @@
     top: 0rem !important;
     left: 0rem !important;
     transform: none !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important; 
 }
     .offer .inner-offer .offer-content .img .img-title {
     transform: rotate(0deg) !important;
