@@ -208,6 +208,16 @@ html body .header .togl-btn .toggl-line {
     color: #fff;
     font-size: 1.6rem;
     padding: 0 6rem 0;
+    color: #0f0;
+    animation: animate 5s infinite linear;
+}
+@keyframes animate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
 .banner .inner-banner .banner-right-content .star p {
     font-size: 7rem;
@@ -549,17 +559,6 @@ background: linear-gradient(135deg, rgba(255,87,34,1) 0%, rgba(182,54,10,1) 48%,
     justify-content: center;
     font-size: 2.3rem;
     text-decoration: none;
-    color: #0f0;
-    text-shadow: 0px 1px 5px #0f0, 0px 0px 10px #0f0, 0px 0px 15px #0f0, 0px 0px 20px #0f0, 0px 0px 25px #0f0;
-    animation: animate 5s infinite linear;
-}
-@keyframes animate {
-    0%{
-        filter: hue-rotate(0deg);
-    }
-    100%{
-        filter: hue-rotate(360deg);
-    }
 }
 .footer .inner-footer .right-content ul li a i {
 }
