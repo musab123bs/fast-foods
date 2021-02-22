@@ -128,7 +128,6 @@ html body .header .togl-btn .toggl-line {
 }
 .navi {
     width: 100%;
-    height: 100vh !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,7 +139,7 @@ html body .header .togl-btn .toggl-line {
     left: calc(25% * var(--i));
     width: 25%;
     background-color: #ffbd00;
-    height: 100%;
+    height: 50%;
     outline: 1px solid rgba(0,0,0,0.1);
     transition: calc(0.25s * var(--i));
     z-index: 2;
