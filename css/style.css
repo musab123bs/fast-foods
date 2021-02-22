@@ -90,7 +90,7 @@ html body .header .togl-btn .toggl-line {
     margin-bottom: 0.5rem;
 }
 .navi .mob-toggle-menu {
-    position: absolute;
+    position: fixed;
     z-index: 4;
     top: 50%;
     left: 50%;
@@ -132,7 +132,6 @@ html body .header .togl-btn .toggl-line {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
     z-index: 5;
 }
 .navi span {
