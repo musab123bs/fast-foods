@@ -50,7 +50,7 @@
 }
 }
 
-@media only screen and(max-width: 370px){
+@media only screen and (max-width: 370px){
 .contact .heading h1 {
     font-size: 6rem;
 }
