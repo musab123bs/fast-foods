@@ -33,7 +33,7 @@
 
 
 
-@media all and (max-width: 575px) and (min-width:400px){
+@media all and (max-width: 575px) and (min-width:310px){
     .offer .inner-offer .offer-content .img{
        display: block !important;
     }
@@ -47,6 +47,12 @@
 }
     .offer .inner-offer .offer-content .img .img-title {
     transform: rotate(0deg) !important;
+}
+}
+
+@media only screen and(max-width: 370px){
+.contact .heading h1 {
+    font-size: 6rem;
 }
 }
 /* @media all and (max-width: 400px) and (min-width:300px){
